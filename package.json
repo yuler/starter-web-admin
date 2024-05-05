@@ -20,8 +20,10 @@
     "@vueuse/core": "^10.7.1",
     "@yuler/utils": "^0.2.0",
     "element-plus": "^2.4.4",
+    "klona": "^2.0.6",
     "nprogress": "^0.2.0",
     "pinia": "^2.1.7",
+    "query-string": "^9.0.0",
     "vue": "^3.4.3",
     "vue-router": "^4.2.5"
   },

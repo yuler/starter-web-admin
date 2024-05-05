@@ -3,7 +3,7 @@ import {defineConfig, splitVendorChunkPlugin, loadEnv} from 'vite'
 import visualizer from 'rollup-plugin-visualizer'
 import Vue from '@vitejs/plugin-vue'
 import VueRouter from 'unplugin-vue-router/vite'
-import { VueRouterAutoImports } from 'unplugin-vue-router'
+import {VueRouterAutoImports} from 'unplugin-vue-router'
 import Layouts from 'vite-plugin-vue-layouts'
 import Components from 'unplugin-vue-components/vite'
 import {ElementPlusResolver} from 'unplugin-vue-components/resolvers'
@@ -49,7 +49,7 @@ export default defineConfig(({mode}) => {
 
       // https://github.com/antfu/unplugin-auto-import
       AutoImport({
-        dirs: ['src/composables', 'src/store'],
+        dirs: ['src/composables', 'src/store', 'src/helpers'],
         imports: [
           'vue',
           VueRouterAutoImports,
