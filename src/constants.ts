@@ -1,9 +1,8 @@
 import type {RouteRecordRaw} from 'vue-router'
-import { routes as _routes } from 'vue-router/auto/routes'
+import {routes as _routes} from 'vue-router/auto-routes'
 
 export const MENUS: RouteRecordRaw[] = []
-
-;(function generateMenus(){
+;(function generateMenus() {
   if (MENUS.length) return
   const routes = _routes
     // Simple clone

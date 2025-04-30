@@ -1,6 +1,6 @@
 import Cookies from 'js-cookie'
 import {defineStore} from 'pinia'
-import type {AppDevice} from '~/types'
+import type {AppDevice} from '../types'
 
 export const useAppStore = defineStore('app', () => {
   const device = ref<AppDevice>('desktop')
