@@ -2,6 +2,12 @@
 
 > 🖥 Vite + Vue + Element Plus Starter Template for Web Admin
 
+## Quick Start
+
+```bash
+gh repo create <project_name> --private --template yuler/starter-web-admin
+```
+
 ## Features
 
 - ⚡️ [Vite 3](https://github.com/vitejs/vite), [Vue 3](https://github.com/vuejs/core), [Element Plus](https://element-plus.org/), [pnpm](https://pnpm.io/)
